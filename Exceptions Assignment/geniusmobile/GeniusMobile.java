@@ -16,7 +16,7 @@ public class GeniusMobile {
             mobileBrand.getBrand("Samsung");
             
         } catch (Exception e) {
-            e.printStackTrace();
+           System.out.println("Product not available"+e);
         }
       
     }
